@@ -9,6 +9,16 @@
     "C:\\Program Files\\Unity\\Hub\\Editor\\6000.3.15f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\BuiltInPackagesCombined.sha1"
   ],
   "outputs": {
+    "com.unity.2d.sprite@1.0.0": {
+      "name": "com.unity.2d.sprite",
+      "displayName": "2D Sprite",
+      "resolvedPath": "C:\\UnityPlantsVsZombiesClone\\DefiendeTuServer\\Project\\Library\\PackageCache\\com.unity.2d.sprite@d14b9d497a24",
+      "fingerprint": "d14b9d497a24d5fc6a731faaacfb216ac084478e",
+      "editorCompatibility": "2019.2.0a1",
+      "version": "1.0.0",
+      "source": "builtin",
+      "testable": false
+    },
     "com.unity.multiplayer.center@1.0.1": {
       "name": "com.unity.multiplayer.center",
       "displayName": "Multiplayer Center",
