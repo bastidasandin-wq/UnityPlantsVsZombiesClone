@@ -413,6 +413,8 @@
 "Assets/_Project/Scripts/Gameplay/LanzaGuizantes.cs"
 "Assets/_Project/Scripts/Gameplay/Plantas.cs"
 "Assets/_Project/Scripts/Gameplay/Zombie.cs"
+"Assets/_Project/Scripts/Menu/AjustesAudio.cs"
+"Assets/_Project/Scripts/Menu/AudioBootstrap.cs"
 "Assets/_Project/Scripts/Menu/MenuSystem.cs"
 -langversion:9.0
 /deterministic

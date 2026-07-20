@@ -239,4 +239,30 @@ public class GameManager : MonoBehaviour
         Time.timeScale = 1f;
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
+
+    /// <summary>
+    /// Conecta esto a un boton "Menu Principal" en Panel Derrota o Panel Victoria.
+    /// Carga la escena llamada exactamente "MenuPrincipal" (debe estar en Build Settings).
+    /// </summary>
+    public void VolverAlMenu()
+    {
+        Time.timeScale = 1f;
+        SceneManager.LoadScene("MenuPrincipal");
+    }
+
+    /// <summary>
+    /// Conecta esto a un boton "Siguiente Nivel" en tu Panel Victoria.
+    /// Carga la escena que sigue en el Build Settings. Si ya no hay mas
+    /// niveles despues de este, regresa al menu principal en vez de dar error.
+    /// </summary>
+    public void SiguienteNivel()
+    {
+        Time.timeScale = 1f;
+        int siguiente = SceneManager.GetActiveScene().buildIndex + 1;
+
+        if (siguiente < SceneManager.sceneCountInBuildSettings)
+            SceneManager.LoadScene(siguiente);
+        else
+            SceneManager.LoadScene("MenuPrincipal");
+    }
 }
